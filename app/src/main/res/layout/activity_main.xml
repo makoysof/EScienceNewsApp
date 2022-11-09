@@ -7,7 +7,22 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="#4ca1af">
-    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#c4e0e5">
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            app:defaultQueryHint="Search"
+            app:iconifiedByDefault="false">
+
+        </androidx.appcompat.widget.SearchView>
+    </androidx.cardview.widget.CardView>
     <HorizontalScrollView
         android:layout_margin="8dp"
         android:layout_width="match_parent"
