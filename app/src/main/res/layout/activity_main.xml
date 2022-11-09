@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#4ca1af">
+    
+    <HorizontalScrollView
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/general"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:backgroundTint="#c4e0e5"
+                android:onClick="onClick"
+                android:padding="6dp"
+                android:text="General"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:backgroundTint="#c4e0e5"
+                android:onClick="onClick"
+                android:padding="6dp"
+                android:text="Business"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/entertainment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:backgroundTint="#c4e0e5"
+                android:onClick="onClick"
+                android:padding="6dp"
+                android:text="Entertainment"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:backgroundTint="#c4e0e5"
+                android:onClick="onClick"
+                android:padding="6dp"
+                android:text="Health"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/science"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:backgroundTint="#c4e0e5"
+                android:onClick="onClick"
+                android:padding="6dp"
+                android:text="Science"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/sports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:backgroundTint="#c4e0e5"
+                android:onClick="onClick"
+                android:padding="6dp"
+                android:text="Sports"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/technology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:backgroundTint="#c4e0e5"
+                android:onClick="onClick"
+                android:padding="6dp"
+                android:text="Technology"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/recycler_view">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

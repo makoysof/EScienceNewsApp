@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EScienceNewsApp</string>
+    <string name="api_key">90058e94f9a8458fac388e5f832d25aa</string>
+    <string name="fetching_news_articles">Fetching news articles</string>
+</resources>
